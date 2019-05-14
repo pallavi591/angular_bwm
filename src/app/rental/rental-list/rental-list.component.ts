@@ -14,9 +14,13 @@ export class RentalListComponent implements OnInit {
 
   ngOnInit() {
     const rentalObservables = this.rentalservice.getRentals();
-    rentalObservables.subscribe((rentals:Rental[]) => {
+    console.log("in init");
+
+    rentalObservables.subscribe((rentals: Rental[]) => {
       this.rentals = rentals;
-    }, (err) => { }, () => { });
+    }, (err) => {
+      console.log(err);
+    }, () => { });
   }
 
 }
