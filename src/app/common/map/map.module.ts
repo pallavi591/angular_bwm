@@ -12,7 +12,7 @@ import { AgmCoreModule } from '@agm/core';
     ],
     imports: [
         AgmCoreModule.forRoot({
-            apiKey: 'AIzaSyC-VZAJswynYe7Ji2wuxtwhNUILqLVNZAA'
+            apiKey: 'AIzaSyBaITIGSsvIe-YHHQWp49g6JRk6yJshfF8'
         })
     ],
     providers: []
