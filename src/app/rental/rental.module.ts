@@ -34,12 +34,11 @@ const routes: Routes = [
     imports: [
         CommonModule,
         RouterModule.forChild(routes),
-        HttpClientModule, 
+        HttpClientModule,
         NgPipesModule,
         MapModule
     ],
     providers: [RentalService]
 })
 export class RentalModule {
-
 }
